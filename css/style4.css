@@ -1,0 +1,93 @@
+body {
+  background-attachment: fixed;
+  background-color: #000;
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+@media only screen and (min-width:1920px) {
+  body {
+    background-image: url('../image/brooklyn_bridge.jpg');
+  }
+}
+@media only screen and (min-width:1500px) and (max-width:1920px) {
+  body {
+    background-image: url('../image/brooklyn_bridge_1920.jpg');
+  }
+}
+@media only screen and (min-width:1080px) and (max-width:1500px) {
+  body {
+    background-image: url('../image/brooklyn_bridge_1500.jpg');
+  }
+}
+@media only screen and (min-width:720px) and (max-width:1080px) {
+  body {
+    background-image: url('../image/brooklyn_bridge_1080.jpg');
+  }
+}
+@media only screen and (max-width:720px) {
+  body {
+    background-image: url('../image/brooklyn_bridge_720.jpg');
+  }
+}
+#wrapper .middle {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#header > .middle,
+#footer > .middle {
+  background: rgba(0,0,0,0.5);
+  padding: 0;
+}
+#main > .middle,
+#bottom > .middle {
+  background: rgba(0,0,0,0.75);
+  padding: 2%;
+}
+#main #progressbar .progressbar .progress {
+  background: rgba(255,255,255,0.75);
+}
+#main #progressbar .progressbar .progress span.percent {
+  color: #333;
+  font-weight: bold;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+#footer > .middle {
+  padding: 10px;
+}
+#language_switch {
+  left: 0;
+}
+#language_switch ul li a {
+  background: #000;
+  background: rgba(0,0,0,0.5);
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  padding-left: 20px;
+}
+@media only screen and (max-width: 760px) {
+  #main > .middle,
+  #bottom > .middle {
+    padding: 5%;
+  }
+  #header > .middle,
+  #footer > .middle {
+    background: transparent;
+  }
+  #bottom .block {
+    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 80px;
+  }
+  #bottom .block:last-child {
+    border-bottom: 0 none;
+  }
+  #bottom .block .button {
+    bottom: 35px;
+  }
+}

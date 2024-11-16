@@ -1,0 +1,124 @@
+/**
+ * You can use this style for styles with light background colors.
+ */
+body {
+  background: #fff;
+}
+body,
+form,
+legend,
+input,
+select,
+option,
+textarea,
+a,
+a:visited {
+  color: #333;
+}
+.loading-wrapper .loading .loading1,
+.loading-wrapper .loading .loading2,
+.loading-wrapper .loading .loading3 {
+  background-color: #000;
+}
+#wrapper {
+  text-shadow: none;
+}
+#header .unslider ol.dots {
+  display: block;
+}
+#header .unslider ol.dots li {
+  background: #ccc;
+  background: rgba(0,0,0,0.25);
+}
+#header .unslider ol.dots li.active {
+  background: #aaa;
+  background: rgba(0,0,0,0.5);
+}
+#main #progressbar .progressbar {
+  background: transparent;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.25);
+  -webkit-border-radius: 40px;
+     -moz-border-radius: 40px;
+          border-radius: 40px;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+#main #progressbar .progressbar .progress {
+  background: #ccc;
+  background: rgba(0,0,0,0.1);
+  -webkit-border-radius: 30px;
+     -moz-border-radius: 30px;
+          border-radius: 30px;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.25);
+}
+#main #progressbar .progressbar span.percent {
+  color: rgb(0,0,0);
+  color: rgba(0,0,0,0.5);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+#bottom .block .results ul li:after {
+  border-left-color: #aaa;
+  border-left-color: rgba(0,0,0,0.5);
+}
+#bottom .block input,
+#bottom .block textarea,
+#bottom .block .button {
+  background: transparent;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.25);
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+#bottom .block h2 {
+  text-shadow: none;
+}
+#bottom,
+#bottom .block input,
+#bottom .block textarea,
+#footer {
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+#bottom .block input,
+#bottom .block textarea {
+  padding: 10px;
+}
+#bottom .block textarea {
+  height: 40px;
+}
+#bottom .block.twitter {
+  height: 232px;
+}
+#bottom .block.subscribe .success,
+#bottom .block.contact .success {
+  background: rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.2);
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  height: 179px;
+}
+#bottom .block.subscribe .success:after,
+#bottom .block.contact .success:after {
+  color: rgba(0,0,0,0.05);
+}
+#bottom .block .button {
+  background: rgba(0,0,0,0.1);
+  color: #444;
+  color: rgba(0,0,0,0.9);
+  text-shadow: 0 1px 0 rgba(255,255,255,0.25);
+}
+#bottom .block .button:focus,
+#bottom .block .button:hover,
+#bottom .block .button:active {
+  color: #333;
+  color: rgba(0,0,0,1);
+}
+#language_switch ul li a {
+  background: #ccc;
+  background: rgba(0,0,0,0.3);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
